@@ -181,9 +181,9 @@
 			//'colors' => $colors
 		);
 		file_put_contents("data/levelData.json", json_encode($levelData));
-		//$file = fopen('data/levelData.json', 'w+');
-		//fwrite($file, json_encode($levelData));
-		fclose($file);
+		// $file = fopen('data/levelData.json', 'w+');
+		// fwrite($file, json_encode($levelData));
+		// fclose($file);
 		
 		
 		
